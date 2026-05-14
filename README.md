@@ -5,11 +5,10 @@ https://www.youtube.com/watch?v=rCJvW2xgnk0
 
 # Переменная окружения
 ```bash
-export CONFIG_PATH="../../config/local.yaml"
+export CONFIG_PATH="./config/local.yaml"
 ```
 
 # Запуск при помощи go run
 ```bash
-cd cmd/url-shortener
-go run main.go
+go run go run cmd/url-shortener/main.go
 ```
